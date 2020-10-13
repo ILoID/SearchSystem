@@ -18,9 +18,7 @@ def find(pattern, path):
 
 
 def to_readable(list):
-    print('')
-    print('This is what i could find:')
-    print('')
+    print('\nThis is what i could find:\n')
     for item in list:
         print(item)
 
